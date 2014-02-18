@@ -14,6 +14,9 @@ Usage is simple, using PSR-0 autoloading.
 
     // Add a block range
     $botBlocker->addIp('192.168.*');
+    $botBlocker->addIp('*.0.1');
 
     // Check if a requesting IP is in blacklist
     $result = $botBlocker->isBlocked();
+
+See [tests/BotblockerTest.php](tests/BotblockerTest.php) for some common examples.
