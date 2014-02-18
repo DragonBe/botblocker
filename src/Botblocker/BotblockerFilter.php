@@ -47,7 +47,7 @@ class BotblockerFilter extends \FilterIterator
     {
         $ip = $this->getInnerIterator()->current();
         $ip = str_replace('*','', $ip);
-        if (stristr($ip, $this->ipFilter)) {
+        if (strpos($ip, $this->ipFilter) !== false) {
             return true;
         }
         return false;
