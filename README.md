@@ -2,6 +2,14 @@
 
 Sometimes you need a quick way to block nasty bots or automated scripts from your PHP application, with Botblocker you can quickly create a list of IP's you want to restrict from accessing.
 
+## Test status
+
+Current test status run on [Travis-CI](http://travis-ci.org):
+
+[![Build Status](https://travis-ci.org/DragonBe/botblocker.png)](https://travis-ci.org/DragonBe/botblocker)
+
+## Usage
+
 Usage is simple, using PSR-0 autoloading.
 
     <?php
