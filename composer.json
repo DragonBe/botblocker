@@ -1,0 +1,15 @@
+{
+    "name": "DragonBe/Botblocker",
+    "description": "A quick way to disable IP's from accessing your web application.",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Michelangelo van Dam",
+            "email": "dragonbe@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "3.7.x-dev"
+    }
+}
